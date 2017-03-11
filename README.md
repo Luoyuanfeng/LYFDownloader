@@ -44,11 +44,11 @@
 
 * **实现**
 
-1. 单独、批量操作下载任务和获取任务数据均通过单例JJZDownloadManager实现。
+1. 单独、批量操作下载任务和获取任务数据均通过单例LYFDownloadManager实现。
 
-2. 调用添加下载任务方法时，JJZDownloadManager负责创建一个NSURLSession的代理，即一个JJZDownloadInstance对象，在该对象中实现了NSURLSession的正在下载、下载完成、出现错误共3个代理方法。在代理方法的实现中完成了下载进度、下载速度的计算及下载完成、下载失败时的回调。
+2. 调用添加下载任务方法时，LYFDownloadManager负责创建一个NSURLSession的代理，即一个LYFDownloadInstance对象，在该对象中实现了NSURLSession的正在下载、下载完成、出现错误共3个代理方法。在代理方法的实现中完成了下载进度、下载速度的计算及下载完成、下载失败时的回调。
 
-3. 在外部需要获取当前的下载任务信息时，JJZDownloadManager会取出所需的下载任务（即JJZDownloadInstance对象），根据其中的数据创建JJZDownloadTaskModel对象并向外提供，保证了在下载过程中下载任务的数据不会被意外修改，外部可以使用JJZDownloadTaskModel对象中的数据刷新界面或更新数据库。
+3. 在外部需要获取当前的下载任务信息时，LYFDownloadManager会取出所需的下载任务（即LYFDownloadInstance对象），根据其中的数据创建LYFDownloadTaskModel对象并向外提供，保证了在下载过程中下载任务的数据不会被意外修改，外部可以使用LYFDownloadTaskModel对象中的数据刷新界面或更新数据库。
 
 4. 关于后台下载：后台下载通过NSURLSessionConfiguration的+backgroundSessionConfigurationWithIdentifier:方法实现，该方法使-sessionWithConfiguration:delegate:delegateQueue:方法创建出的NSURLSession可以被托管给系统并在后台执行。当执行完成后则会唤起应用进行回调，为应用留出一段时间进行下载完成后的操作（如添加下一个下载任务等）。
 
