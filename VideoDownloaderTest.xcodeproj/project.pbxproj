@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3C796B1E648C01003AADE0 /* NSData+LYFCorrectResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C796A1E648C01003AADE0 /* NSData+LYFCorrectResumeData.m */; };
+		2A7005441D7C273300DDCFC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7005431D7C273300DDCFC4 /* main.m */; };
+		2A7005471D7C273300DDCFC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7005461D7C273300DDCFC4 /* AppDelegate.m */; };
+		2A70054D1D7C273300DDCFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A70054B1D7C273300DDCFC4 /* Main.storyboard */; };
+		2A7005501D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A70054E1D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodeld */; };
+		2A7005521D7C273300DDCFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7005511D7C273300DDCFC4 /* Assets.xcassets */; };
+		2A7005551D7C273300DDCFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7005531D7C273300DDCFC4 /* LaunchScreen.storyboard */; };
+		2AA5EB5F1E3C9B540041177F /* LYFDownloadTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5EB5A1E3C9B540041177F /* LYFDownloadTaskModel.m */; };
+		2AA5EB601E3C9B540041177F /* LYFDownloadInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5EB5C1E3C9B540041177F /* LYFDownloadInstance.m */; };
+		2AA5EB611E3C9B540041177F /* LYFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5EB5E1E3C9B540041177F /* LYFDownloadManager.m */; };
+		2ADE74F21E681A1F004A5A8A /* DownloadMamageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE74E81E681A1F004A5A8A /* DownloadMamageViewController.m */; };
+		2ADE74F31E681A1F004A5A8A /* ResourceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE74EA1E681A1F004A5A8A /* ResourceListViewController.m */; };
+		2ADE74F41E681A1F004A5A8A /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE74ED1E681A1F004A5A8A /* DownloadCell.m */; };
+		2ADE74F51E681A1F004A5A8A /* DownloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE74EE1E681A1F004A5A8A /* DownloadCell.xib */; };
+		2ADE74F61E681A1F004A5A8A /* DownloadManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE74F01E681A1F004A5A8A /* DownloadManageCell.m */; };
+		2ADE74F71E681A1F004A5A8A /* DownloadManageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADE74F11E681A1F004A5A8A /* DownloadManageCell.xib */; };
+		2ADE75071E6945E8004A5A8A /* LYFDownloadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE75061E6945E8004A5A8A /* LYFDownloadFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A3C79691E648C01003AADE0 /* NSData+LYFCorrectResumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+LYFCorrectResumeData.h"; sourceTree = "<group>"; };
+		2A3C796A1E648C01003AADE0 /* NSData+LYFCorrectResumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LYFCorrectResumeData.m"; sourceTree = "<group>"; };
+		2A70053F1D7C273300DDCFC4 /* VideoDownloaderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDownloaderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7005431D7C273300DDCFC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A7005451D7C273300DDCFC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A7005461D7C273300DDCFC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A70054C1D7C273300DDCFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A70054F1D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoDownloaderTest.xcdatamodel; sourceTree = "<group>"; };
+		2A7005511D7C273300DDCFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A7005541D7C273300DDCFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A7005561D7C273300DDCFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA5EB591E3C9B540041177F /* LYFDownloadTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFDownloadTaskModel.h; sourceTree = "<group>"; };
+		2AA5EB5A1E3C9B540041177F /* LYFDownloadTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFDownloadTaskModel.m; sourceTree = "<group>"; };
+		2AA5EB5B1E3C9B540041177F /* LYFDownloadInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFDownloadInstance.h; sourceTree = "<group>"; };
+		2AA5EB5C1E3C9B540041177F /* LYFDownloadInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFDownloadInstance.m; sourceTree = "<group>"; };
+		2AA5EB5D1E3C9B540041177F /* LYFDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFDownloadManager.h; sourceTree = "<group>"; };
+		2AA5EB5E1E3C9B540041177F /* LYFDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFDownloadManager.m; sourceTree = "<group>"; };
+		2ADE74E71E681A1F004A5A8A /* DownloadMamageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadMamageViewController.h; sourceTree = "<group>"; };
+		2ADE74E81E681A1F004A5A8A /* DownloadMamageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadMamageViewController.m; sourceTree = "<group>"; };
+		2ADE74E91E681A1F004A5A8A /* ResourceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceListViewController.h; sourceTree = "<group>"; };
+		2ADE74EA1E681A1F004A5A8A /* ResourceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceListViewController.m; sourceTree = "<group>"; };
+		2ADE74EC1E681A1F004A5A8A /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
+		2ADE74ED1E681A1F004A5A8A /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
+		2ADE74EE1E681A1F004A5A8A /* DownloadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadCell.xib; sourceTree = "<group>"; };
+		2ADE74EF1E681A1F004A5A8A /* DownloadManageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManageCell.h; sourceTree = "<group>"; };
+		2ADE74F01E681A1F004A5A8A /* DownloadManageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManageCell.m; sourceTree = "<group>"; };
+		2ADE74F11E681A1F004A5A8A /* DownloadManageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadManageCell.xib; sourceTree = "<group>"; };
+		2ADE75051E6945E8004A5A8A /* LYFDownloadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFDownloadFileManager.h; sourceTree = "<group>"; };
+		2ADE75061E6945E8004A5A8A /* LYFDownloadFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFDownloadFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A70053C1D7C273300DDCFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7005361D7C273300DDCFC4 = {
+			isa = PBXGroup;
+			children = (
+				2A7005411D7C273300DDCFC4 /* VideoDownloaderTest */,
+				2A7005401D7C273300DDCFC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7005401D7C273300DDCFC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A70053F1D7C273300DDCFC4 /* VideoDownloaderTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7005411D7C273300DDCFC4 /* VideoDownloaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE74E61E681A1F004A5A8A /* ViewControllers */,
+				2ADE74EB1E681A1F004A5A8A /* Views */,
+				2AA5EB581E3C9B540041177F /* Downloader */,
+				2A7005451D7C273300DDCFC4 /* AppDelegate.h */,
+				2A7005461D7C273300DDCFC4 /* AppDelegate.m */,
+				2A70054B1D7C273300DDCFC4 /* Main.storyboard */,
+				2A7005511D7C273300DDCFC4 /* Assets.xcassets */,
+				2A7005531D7C273300DDCFC4 /* LaunchScreen.storyboard */,
+				2A7005561D7C273300DDCFC4 /* Info.plist */,
+				2A70054E1D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodeld */,
+				2A7005421D7C273300DDCFC4 /* Supporting Files */,
+			);
+			path = VideoDownloaderTest;
+			sourceTree = "<group>";
+		};
+		2A7005421D7C273300DDCFC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7005431D7C273300DDCFC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AA5EB581E3C9B540041177F /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5EB5D1E3C9B540041177F /* LYFDownloadManager.h */,
+				2AA5EB5E1E3C9B540041177F /* LYFDownloadManager.m */,
+				2ADE75051E6945E8004A5A8A /* LYFDownloadFileManager.h */,
+				2ADE75061E6945E8004A5A8A /* LYFDownloadFileManager.m */,
+				2AA5EB591E3C9B540041177F /* LYFDownloadTaskModel.h */,
+				2AA5EB5A1E3C9B540041177F /* LYFDownloadTaskModel.m */,
+				2AA5EB5B1E3C9B540041177F /* LYFDownloadInstance.h */,
+				2AA5EB5C1E3C9B540041177F /* LYFDownloadInstance.m */,
+				2A3C79691E648C01003AADE0 /* NSData+LYFCorrectResumeData.h */,
+				2A3C796A1E648C01003AADE0 /* NSData+LYFCorrectResumeData.m */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		2ADE74E61E681A1F004A5A8A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE74E71E681A1F004A5A8A /* DownloadMamageViewController.h */,
+				2ADE74E81E681A1F004A5A8A /* DownloadMamageViewController.m */,
+				2ADE74E91E681A1F004A5A8A /* ResourceListViewController.h */,
+				2ADE74EA1E681A1F004A5A8A /* ResourceListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2ADE74EB1E681A1F004A5A8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE74EC1E681A1F004A5A8A /* DownloadCell.h */,
+				2ADE74ED1E681A1F004A5A8A /* DownloadCell.m */,
+				2ADE74EE1E681A1F004A5A8A /* DownloadCell.xib */,
+				2ADE74EF1E681A1F004A5A8A /* DownloadManageCell.h */,
+				2ADE74F01E681A1F004A5A8A /* DownloadManageCell.m */,
+				2ADE74F11E681A1F004A5A8A /* DownloadManageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A70053E1D7C273300DDCFC4 /* VideoDownloaderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7005591D7C273300DDCFC4 /* Build configuration list for PBXNativeTarget "VideoDownloaderTest" */;
+			buildPhases = (
+				2A70053B1D7C273300DDCFC4 /* Sources */,
+				2A70053C1D7C273300DDCFC4 /* Frameworks */,
+				2A70053D1D7C273300DDCFC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoDownloaderTest;
+			productName = VideoDownloaderTest;
+			productReference = 2A70053F1D7C273300DDCFC4 /* VideoDownloaderTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7005371D7C273300DDCFC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "罗元丰";
+				TargetAttributes = {
+					2A70053E1D7C273300DDCFC4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = V89PMZ37N9;
+					};
+				};
+			};
+			buildConfigurationList = 2A70053A1D7C273300DDCFC4 /* Build configuration list for PBXProject "VideoDownloaderTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A7005361D7C273300DDCFC4;
+			productRefGroup = 2A7005401D7C273300DDCFC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A70053E1D7C273300DDCFC4 /* VideoDownloaderTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A70053D1D7C273300DDCFC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7005551D7C273300DDCFC4 /* LaunchScreen.storyboard in Resources */,
+				2ADE74F71E681A1F004A5A8A /* DownloadManageCell.xib in Resources */,
+				2ADE74F51E681A1F004A5A8A /* DownloadCell.xib in Resources */,
+				2A7005521D7C273300DDCFC4 /* Assets.xcassets in Resources */,
+				2A70054D1D7C273300DDCFC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A70053B1D7C273300DDCFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE74F21E681A1F004A5A8A /* DownloadMamageViewController.m in Sources */,
+				2A3C796B1E648C01003AADE0 /* NSData+LYFCorrectResumeData.m in Sources */,
+				2ADE74F61E681A1F004A5A8A /* DownloadManageCell.m in Sources */,
+				2AA5EB601E3C9B540041177F /* LYFDownloadInstance.m in Sources */,
+				2AA5EB5F1E3C9B540041177F /* LYFDownloadTaskModel.m in Sources */,
+				2ADE74F31E681A1F004A5A8A /* ResourceListViewController.m in Sources */,
+				2A7005501D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodeld in Sources */,
+				2A7005471D7C273300DDCFC4 /* AppDelegate.m in Sources */,
+				2ADE75071E6945E8004A5A8A /* LYFDownloadFileManager.m in Sources */,
+				2A7005441D7C273300DDCFC4 /* main.m in Sources */,
+				2AA5EB611E3C9B540041177F /* LYFDownloadManager.m in Sources */,
+				2ADE74F41E681A1F004A5A8A /* DownloadCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A70054B1D7C273300DDCFC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A70054C1D7C273300DDCFC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A7005531D7C273300DDCFC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7005541D7C273300DDCFC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A7005571D7C273300DDCFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A7005581D7C273300DDCFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A70055A1D7C273300DDCFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VideoDownloaderTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lyf.VideoDownloaderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A70055B1D7C273300DDCFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VideoDownloaderTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lyf.VideoDownloaderTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A70053A1D7C273300DDCFC4 /* Build configuration list for PBXProject "VideoDownloaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7005571D7C273300DDCFC4 /* Debug */,
+				2A7005581D7C273300DDCFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7005591D7C273300DDCFC4 /* Build configuration list for PBXNativeTarget "VideoDownloaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A70055A1D7C273300DDCFC4 /* Debug */,
+				2A70055B1D7C273300DDCFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A70054E1D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A70054F1D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodel */,
+			);
+			currentVersion = 2A70054F1D7C273300DDCFC4 /* VideoDownloaderTest.xcdatamodel */;
+			path = VideoDownloaderTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A7005371D7C273300DDCFC4 /* Project object */;
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="156" id="KGk-i7-Jjw" customClass="DownloadCell">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="520" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-VL-u8L">
+                        <rect key="frame" x="10" y="10" width="500" height="21"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzM-wv-ZIK">
+                        <rect key="frame" x="10" y="51" width="500" height="30"/>
+                        <color key="backgroundColor" red="0.75162541946308725" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="开始"/>
+                        <connections>
+                            <action selector="changeStatus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SBx-UD-k9w"/>
+                        </connections>
+                    </button>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Y1e-Sq-xZ7">
+                        <rect key="frame" x="10" y="101" width="500" height="2"/>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip2-0c-svj">
+                        <rect key="frame" x="473" y="113" width="37" height="21"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0kb/s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYQ-5N-QYu">
+                        <rect key="frame" x="10" y="113" width="44" height="21"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rKq-d1-eDz">
+                        <rect key="frame" x="0.0" y="154.5" width="520" height="1"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="iWf-cC-ZGZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Y1e-Sq-xZ7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1Qb-kD-9aX"/>
+                    <constraint firstAttribute="trailing" secondItem="Y1e-Sq-xZ7" secondAttribute="trailing" constant="10" id="4cO-6u-Q5F"/>
+                    <constraint firstItem="Y1e-Sq-xZ7" firstAttribute="top" secondItem="FzM-wv-ZIK" secondAttribute="bottom" constant="20" id="5v9-Ge-HiZ"/>
+                    <constraint firstItem="FzM-wv-ZIK" firstAttribute="leading" secondItem="W6T-VL-u8L" secondAttribute="leading" id="Gln-vi-d3g"/>
+                    <constraint firstAttribute="trailing" secondItem="ip2-0c-svj" secondAttribute="trailing" constant="10" id="Oe4-Wk-8um"/>
+                    <constraint firstItem="hYQ-5N-QYu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Pvk-FB-4jC"/>
+                    <constraint firstItem="hYQ-5N-QYu" firstAttribute="top" secondItem="Y1e-Sq-xZ7" secondAttribute="bottom" constant="10" id="RmB-GO-hjD"/>
+                    <constraint firstItem="FzM-wv-ZIK" firstAttribute="top" secondItem="W6T-VL-u8L" secondAttribute="bottom" constant="20" id="WUf-z7-3VH"/>
+                    <constraint firstItem="W6T-VL-u8L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Yoz-ri-kiO"/>
+                    <constraint firstAttribute="trailing" secondItem="W6T-VL-u8L" secondAttribute="trailing" constant="10" id="cW6-ld-wUn"/>
+                    <constraint firstAttribute="trailing" secondItem="rKq-d1-eDz" secondAttribute="trailing" id="clk-lQ-Lp7"/>
+                    <constraint firstAttribute="bottom" secondItem="rKq-d1-eDz" secondAttribute="bottom" id="gkn-jG-mk8"/>
+                    <constraint firstItem="W6T-VL-u8L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="iY9-Ie-fLJ"/>
+                    <constraint firstItem="rKq-d1-eDz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="r4z-TX-Xoc"/>
+                    <constraint firstItem="FzM-wv-ZIK" firstAttribute="trailing" secondItem="W6T-VL-u8L" secondAttribute="trailing" id="tkf-v1-3Up"/>
+                    <constraint firstItem="ip2-0c-svj" firstAttribute="top" secondItem="Y1e-Sq-xZ7" secondAttribute="bottom" constant="10" id="wje-XK-MWs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="beginBtn" destination="FzM-wv-ZIK" id="48x-hh-jyG"/>
+                <outlet property="percentageLabel" destination="ip2-0c-svj" id="57x-5Y-UGR"/>
+                <outlet property="progressView" destination="Y1e-Sq-xZ7" id="WcI-et-3xY"/>
+                <outlet property="speedLabel" destination="hYQ-5N-QYu" id="Gxq-iB-VIN"/>
+                <outlet property="urlLabel" destination="W6T-VL-u8L" id="Cr0-66-HR9"/>
+            </connections>
+            <point key="canvasLocation" x="377" y="272"/>
+        </tableViewCell>
+    </objects>
+</document>
