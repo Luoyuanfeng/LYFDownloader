@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EEEFF601B06CFE182084CBC62E5893BC50A3CE3B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0255471EB6FE565768091BC7F0A8BB74983852D6",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "EEEFF601B06CFE182084CBC62E5893BC50A3CE3B" : 9223372036854775807,
+    "0255471EB6FE565768091BC7F0A8BB74983852D6" : 9223372036854775807,
     "AB0BB328403160DC43242413AF41D827F8A033DE" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6232E8EB-3E10-49E6-B22A-F3A0DFA260F7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "EEEFF601B06CFE182084CBC62E5893BC50A3CE3B" : "LYFDownloader\/",
+    "0255471EB6FE565768091BC7F0A8BB74983852D6" : "LYFDownloader\/",
     "AB0BB328403160DC43242413AF41D827F8A033DE" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "VideoDownloaderTest",
@@ -17,14 +17,14 @@
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VideoDownloaderTest.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Luoyuanfeng\/LYFDownloader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0255471EB6FE565768091BC7F0A8BB74983852D6"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.highso.com.cn:81\/gqt\/CommonLibIOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB0BB328403160DC43242413AF41D827F8A033DE"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Luoyuanfeng\/LYFDownloader.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEEFF601B06CFE182084CBC62E5893BC50A3CE3B"
     }
   ]
 }

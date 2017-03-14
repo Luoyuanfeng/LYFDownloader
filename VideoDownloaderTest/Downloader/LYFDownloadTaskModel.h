@@ -21,6 +21,7 @@ typedef NS_ENUM(NSInteger, LYFTaskStatus) {
 @property (nonatomic, assign) double         taskCreateTime;           // 下载任务的创建时间(ms时间戳)
 @property (nonatomic, assign) LYFTaskStatus  status;                   // 下载状态
 @property (nonatomic, copy)   NSString       *customFolderDirectory;   // 沙盒文件夹下需要的路径
+@property (nonatomic, copy)   NSString       *customFileName;          // 沙盒文件夹下文件名
 @property (nonatomic, copy)   NSString       *urlString;               // 文件地址
 @property (nonatomic, assign) int64_t        currentSpeed;             // 当前的下载速度(kb/s)
 @property (nonatomic, assign) int64_t        total;                    // 总大小(b)

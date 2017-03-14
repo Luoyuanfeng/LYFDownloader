@@ -165,6 +165,7 @@ static id obj = nil;
                    createTime:(double)createTime
                        status:(LYFTaskStatus)status
                    customInfo:(NSDictionary *)customInfo
+             expectedFileName:(NSString *)aFileName
             expectedDirectory:(NSString *)aDirectory
 {
     
@@ -179,6 +180,8 @@ static id obj = nil;
     LYFDownloadInstance *instance = [[LYFDownloadInstance alloc] initWithUrlString:url
                                                                          customKey:customKey
                                                                         rootFolder:_rootFolder];
+    if (aFileName)
+        instance.customFileName = aFileName;
     if (aDirectory)
         instance.customFolderDirectory = aDirectory;
     if (customInfo)
@@ -372,6 +375,7 @@ static id obj = nil;
     LYFDownloadTaskModel *model = [[LYFDownloadTaskModel alloc] init];
     model.customKey             = instance.customKey;
     model.customFolderDirectory = instance.customFolderDirectory;
+    model.customFileName        = instance.customFileName;
     model.urlString             = instance.urlStr;
     model.customInfo            = instance.customInfo;
     model.taskCreateTime        = instance.taskCreateTime;

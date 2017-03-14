@@ -59,7 +59,7 @@ static int kRequestTimeout    = 30;
 - (void)URLSession:(NSURLSession *)session downloadTask:(NSURLSessionDownloadTask *)downloadTask didFinishDownloadingToURL:(NSURL *)location
 {
     NSString *createPath = [NSString stringWithFormat:@"%@/%@", _baseFilePath, _customFolderDirectory ? _customFolderDirectory : @"downloadFile"];
-    NSString *fileName = _customKey;
+    NSString *fileName = _customFileName ? : _customKey;
     
     NSError *error = nil;
     [LYFDownloadFileManager moveFileFromPath:location.path

@@ -60,6 +60,7 @@ typedef void(^LYFTaskStatusChangedCallbackBlock)(NSArray<LYFDownloadTaskModel *>
                    createTime:(double)createTime
                        status:(LYFTaskStatus)status
                    customInfo:(NSDictionary *)customInfo
+             expectedFileName:(NSString *)aFileName
             expectedDirectory:(NSString *)aDirectory;
 
 /** 使用customKey启动下载 */

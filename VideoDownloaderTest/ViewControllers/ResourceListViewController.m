@@ -76,7 +76,13 @@
 - (void)download:(NSString *)url sender:(UIButton *)btn
 {
     NSString *customKey = [url componentsSeparatedByString:@"/"].lastObject;
-    [[LYFDownloadManager sharedInstance] addDownloadTaskForKey:customKey url:url createTime:[[NSDate date] timeIntervalSince1970] * 1000 status:LYFTaskStatusNew customInfo:nil expectedDirectory:nil];
+    [[LYFDownloadManager sharedInstance] addDownloadTaskForKey:customKey
+                                                           url:url
+                                                    createTime:[[NSDate date] timeIntervalSince1970] * 1000
+                                                        status:LYFTaskStatusNew
+                                                    customInfo:nil
+                                              expectedFileName:nil
+                                             expectedDirectory:nil];
 }
 
 - (CGFloat)getH:(NSString *)str

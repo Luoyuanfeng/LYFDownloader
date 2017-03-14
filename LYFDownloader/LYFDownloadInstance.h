@@ -23,6 +23,8 @@ typedef void(^LYFDownloadDidFailedCallbackBlock)(LYFDownloadInstance *);
 @property (nonatomic, strong) NSDictionary                       *customInfo;            // 其他附带信息
 @property (nonatomic, assign) LYFDownloadStatus                  status;                 // 下载状态
 @property (nonatomic, copy)   NSString                           *customFolderDirectory; // 沙盒文件夹下需要的路径
+@property (nonatomic, copy)   NSString                           *customFileName;        // 沙盒文件夹下的文件名
+
 @property (nonatomic, copy)   LYFDownloadDidFinishCallbackBlock  finishCallback;         // 下载完成的回调
 @property (nonatomic, copy)   LYFDownloadWillAwakeCallbackBlock  awakeCallback;          // 当下载过程中应用退出后再次被打开时执行的回调
 @property (nonatomic, copy)   LYFDownloadDidFailedCallbackBlock  failedCallback;         // 下载失败的回调
