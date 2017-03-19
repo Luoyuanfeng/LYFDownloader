@@ -213,3 +213,7 @@ LYFTaskStatusFinish        = 4
 
 @end
 ```
+* **TODO**
+	
+	1. 完善的备忘录模式
+	2. Swift版
