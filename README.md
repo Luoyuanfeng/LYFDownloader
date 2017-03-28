@@ -1,5 +1,12 @@
 
-#LYFDownloader v1.3 
+#LYFDownloader v1.4
+
+***
+
+* **v1.4更新内容**
+
+1. 修复了由于 `_config.discretionary = YES;`造成的部分设备无法开始下载任务的bug。
+2. 建议使用时打开Capabilities -> Backgrond Mode -> background fetch
 
 ***
 
