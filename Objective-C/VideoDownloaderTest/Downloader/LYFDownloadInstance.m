@@ -43,7 +43,7 @@ static int kRequestTimeout    = 30;
         
         _config = [NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:customKey];
         _config.sessionSendsLaunchEvents = YES;
-        _config.discretionary = YES;
+        _config.discretionary = NO;
         _config.timeoutIntervalForRequest = kRequestTimeout;
         
         _session = [NSURLSession sessionWithConfiguration:_config delegate:self delegateQueue:[NSOperationQueue mainQueue]];
@@ -118,10 +118,28 @@ static int kRequestTimeout    = 30;
             if (_awakeCallback(self)) {
                 [_downloadTask resume];
             }
+        
         } else {
+            
             NSLog(@"DOWNLOAD_ERROR : %@ AT >>> %s-%s-%d", error.localizedDescription, __FILE__, __FUNCTION__, __LINE__);
         }
     }
+}
+
+- (void)URLSession:(NSURLSession *)session didBecomeInvalidWithError:(NSError *)error
+{
+   // if (error) {
+        
+        UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(10, 300, 300, 200)];
+        l.numberOfLines = 0;
+        l.backgroundColor = [UIColor yellowColor];
+        l.textColor = [UIColor redColor];
+        l.text = @"============";
+        
+        UIWindow *w = [UIApplication sharedApplication].keyWindow;
+        [w addSubview:l];
+        [w bringSubviewToFront:l];
+   // }
 }
 
 #pragma mark - public

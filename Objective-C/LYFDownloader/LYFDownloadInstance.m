@@ -43,7 +43,7 @@ static int kRequestTimeout    = 30;
         
         _config = [NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:customKey];
         _config.sessionSendsLaunchEvents = YES;
-        _config.discretionary = YES;
+        _config.discretionary = NO;
         _config.timeoutIntervalForRequest = kRequestTimeout;
         
         _session = [NSURLSession sessionWithConfiguration:_config delegate:self delegateQueue:[NSOperationQueue mainQueue]];

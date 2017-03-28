@@ -25,7 +25,8 @@
 {
     [super viewDidLoad];
     
-    _resourceArray = @[@"http://enc-mp4.highso.com.cn/1605/HHCXPWER/216d4b82b6ee7ed33f3306cdcb55370e.mp4",
+    _resourceArray = @[@"http://enc-mp4.highso.com.cn/1612/VWATTUIH/66a7c464cb786b736642088fdf7a5510.mp4",
+                       @"http://enc-mp4.highso.com.cn/1605/HHCXPWER/216d4b82b6ee7ed33f3306cdcb55370e.mp4",
                        @"http://enc-mp4.highso.com.cn/1606/QUERXYWW/4c8ce769ab4da13057ff5476732b93bd.mp4",
                        @"http://enc-mp4.highso.com.cn/1606/HDJOGRYM/7aa5a702dcf2592f6e4321d9411cb4f1.mp4",
                        @"http://enc-mp4.highso.com.cn/1606/UIHWDWGC/e3d41d5f4a8ee223c8321b73325b8e70.mp4",

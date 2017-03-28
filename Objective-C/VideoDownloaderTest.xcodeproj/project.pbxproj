@@ -184,6 +184,11 @@
 					2A70053E1D7C273300DDCFC4 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = V89PMZ37N9;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};

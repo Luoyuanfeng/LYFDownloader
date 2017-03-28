@@ -3,7 +3,7 @@
 //  Copyright © 2016年 罗元丰. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class LYFDownloadInstance;
 
