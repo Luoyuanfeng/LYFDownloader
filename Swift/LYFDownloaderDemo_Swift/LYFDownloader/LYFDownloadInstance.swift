@@ -27,9 +27,14 @@ class LYFDownloadInstance: NSObject, URLSessionDownloadDelegate {
     
     var kRequestTimeout: TimeInterval = 30.0
     
-    convenience init(urlString: String, customKey: String, rootFolder: Int) {
+    override init() {
+        print("init() cannot init LYFDownloadInstance correctly, use init(urlString: customKey: rootFolder:) instead")
+        super.init()
+    }
+    
+    public init(urlString: String, customKey: String, rootFolder: Int) {
 
-        self.init()
+        super.init()
         
         self.urlString = urlString
         self.customKey = customKey

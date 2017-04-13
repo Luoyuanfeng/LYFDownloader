@@ -31,6 +31,12 @@ static int kRequestTimeout    = 30;
     BOOL                       _isProducing;       //是否是主动生成的下载数据
 }
 
+- (instancetype)init
+{
+    NSLog(@"%s can't init %@ correctly, use -[initWithUrlString:customKey:rootFolder:] instead", __FUNCTION__, NSStringFromClass([self class]));
+    return nil;
+}
+
 //初始化
 - (instancetype)initWithUrlString:(NSString *)urlString customKey:(NSString *)customKey rootFolder:(int)rootFolder
 {
