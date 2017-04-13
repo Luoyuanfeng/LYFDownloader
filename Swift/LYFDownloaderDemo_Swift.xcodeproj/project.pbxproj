@@ -232,7 +232,7 @@
 				TargetAttributes = {
 					2AA553DF1E8417C000B2E320 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4V362TJQ35;
+						DevelopmentTeam = V89PMZ37N9;
 						ProvisioningStyle = Automatic;
 					};
 					2AA553F31E8417C000B2E320 = {
@@ -459,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4V362TJQ35;
+				DEVELOPMENT_TEAM = V89PMZ37N9;
 				INFOPLIST_FILE = LYFDownloaderDemo_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lyf.LYFDownloaderDemo-Swift";
@@ -472,7 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4V362TJQ35;
+				DEVELOPMENT_TEAM = V89PMZ37N9;
 				INFOPLIST_FILE = LYFDownloaderDemo_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lyf.LYFDownloaderDemo-Swift";
