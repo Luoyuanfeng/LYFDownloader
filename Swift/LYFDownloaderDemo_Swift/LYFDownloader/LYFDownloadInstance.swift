@@ -8,13 +8,20 @@
 
 import UIKit
 
+enum LYFDownloadTaskState {
+    case Downloading
+    case Waiting
+    case Paused
+    case Error
+}
+
 class LYFDownloadInstance: NSObject, URLSessionDownloadDelegate {
     
-    var resumeData:     Data?
-    var request:        URLRequest?
-    var session:        URLSession?
-    var downloadTask:   URLSessionDownloadTask?
-    var config:         URLSessionConfiguration?
+    private var resumeData:     Data?
+    private var request:        URLRequest?
+    private var session:        URLSession?
+    private var downloadTask:   URLSessionDownloadTask?
+    private var config:         URLSessionConfiguration?
     
     var customKey:      String!
     var urlString:      String!
@@ -56,7 +63,7 @@ class LYFDownloadInstance: NSObject, URLSessionDownloadDelegate {
     
     //MARK: - URLSessionDownloadDelegate
     internal func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL) {
-        
+//        let desPath = self.baseFilePath!.appendingFormat("/%@", <#T##arguments: CVarArg...##CVarArg#>)
     }
     
     internal func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {

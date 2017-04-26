@@ -38,4 +38,13 @@ class LYFDownloadFileManager: NSObject {
         return false
     }
     
+    static func deleteFile(atPath: String!) -> Bool {
+        do {
+            try fm.removeItem(atPath: atPath)
+        } catch {
+            return false
+        }
+        return true;
+    }
+    
 }
